@@ -1,0 +1,197 @@
+p{
+    font-weight: 600;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    line-height: 1,5;
+    word-spacing: 5px;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding:5px;
+    width: 100%;
+    z-index: 1;
+    transition: 0,5s;
+    scroll-behavior: border-box;
+}
+.logo{
+    width: 150px;
+}
+.navbar {
+    list-style-type:none;
+}
+.navbar li{
+display: inline;
+margin-right: 20px;
+}
+.navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: #3f993f;
+}
+.bouton{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: medium;
+    text-decoration: none;
+    color: white;
+    background-color:  #3f993f;
+    font-weight: bold;
+}
+.bouton:hover{
+    background: #fcd9b6;
+    color: black ;
+}
+.banner{
+    position: relative;
+    height: 500Px;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-image: url('https://st3.depositphotos.com/1194063/18449/i/380/depositphotos_184491206-stock-photo-gardening-tools-and-spring-flowers.jpg');
+    background-size: cover;
+    margin:-8px;
+    padding:0px;
+    padding-right: -40px;
+
+}
+.banner .sec1{
+    max-width: 70%;
+    text-align: center;
+}
+.banner .sec1 h1{
+    color: #08100C;
+    font-size: 50px;
+}
+.banner .sec1 h1 span{
+    color: #2d4462;
+    text-decoration: none;
+}
+.banner .sec1 .rdv{
+    padding: 5px;
+    border-radius: 10px;
+    margin: 20px;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #2d4462;
+    color: white;
+    border: 5px solid #fcd9b6;
+}
+.banner .sec1 .rdv:hover{
+    background-color: #fcd9b6;
+    color: #08100C;
+    border: 5px solid white;
+}
+.banner .sec1 .devis{
+    padding: 5px;
+    border-radius: 10px;
+    margin: 20px;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    background-color: #fcd9b6;
+    color: #08100C;
+    border: 5px solid #08100C;
+}
+.banner .sec1 .devis:hover{
+    background-color: #2d4462;
+    color: white;
+    border: 5px solid #fcd9b6;
+}
+.sec2 .bloc1{
+    display: flex;
+    margin: 50px;
+    background-color: #8c5723;
+    box-shadow: 5px 5px 10px 5px black;
+}
+.sec2 .bloc1 img {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.sec2 .bloc2{
+    display: flex;
+    margin: 50px;
+    background-color: #8c5723;
+}
+footer{
+    background-color: #fcd9b6;
+    justify-content: center;
+    align-items: center;
+    padding: -20pc;
+    margin: -20px;
+}
+footer .pied{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.pied h1{
+    color:#2d4462;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.piedpage{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.piedpage ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.piedpage ul li a{
+    text-decoration: none;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #080808;
+    line-height: 5px;
+}
+.piedpage ul li a:hover{
+    color:#82be1e;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+hr{
+    border: 5px solid 
+    #3f993f;
+    margin-right: 13em;
+    margin-left: 13em;
+
+}
+.piedpage .news{
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #2d4462;
+    color: white;
+}
+.piedpage .news #envoyer{
+    background-color: crimson;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: bold;
+}
+.piedpage .news #main{
+    padding: 5px;
+    border: 3px solid black;
+border-radius: 20px;}
