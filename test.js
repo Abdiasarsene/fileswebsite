@@ -6,10 +6,9 @@ para.innerHTML=nouvelpara;   //ajout du texte au paragraphe
 //ajout du paragraphe à la page HTML
 body.appendChild(para);
 
-//Ajout d'évnement
-let envoyer = document.getElementsByClassName('envoyer')
+const form = document.querySelector("form")
 
-envoyer.addEventListerner("click", function(){
-    console.log('Bienvenu chez nous')
-})
-let titreh1 =document.getElementsByClassName("hn")
+form.addEventListener('submit', (event) =>{
+    event.preventDefault();
+    console.log("y a pas rechargement de page")
+} )
