@@ -1,34 +1,53 @@
-//Collecte de données sur Etienne
-let dossierEti ={
-    nom: "ADRI",
-    prenom: "Etienne Eliasaph",
-    classe: "Première D1",
-    hobbies: "TRAMADOR"
-}
-dossierEti.formationbac="Informatique"
-dossierEti.age=15
-console.log("Le dossier réalisé sur Etienne montre  des informations qui seront cruciales afin de le suivre de près. Voici les information collectée sur lui. Déjà, il s'appelle" +" "+ dossierEti.nom + " "+ dossierEti.prenom +" en classe de "
-+ dossierEti.classe+". Pour récap sa journée, je dirai  qu'il est juste un petit "+ dossierEti.hobbies+" agé de "+ dossierEti.age + "et envisage de continuer après son BAC le domaine de l'" + dossierEti.formationbac)
+//J'ai sélectionné la section "entête du site"
+let section= document.getElementsByTagName("header");
+let image = section.getElementByClasseName('img') 
 
-// Condition
-let ageabdias = 50
-if(ageabdias==20){
-    console.log('Youpi, youre earned millionsdollars')
-}else if(ageabdias<=30){
-    console.log("Mature")
-}else{
-    console.log("Damn")
-}
-
-let titre = bloc3.getElementsByTagName("h2").innerHTML ="                <h2>Nouvel article</h2>";
-
-//Récupérer l'élement logo
-var sitelogo =document.getElementByClassNam("logo");
-//Récupérer propriété de l'élément
-var taille = sitelogo.width
-sitelogo.width = taille + 200 ;
-
-let sects = document.getElementByClassNam("sec").innerHTML;
+// script.js
+window.onload = function() {
+    // Exemple de modification de contenu HTML avec JavaScript
+    let sects = document.getElementByClassNam("sec").innerHTML;
 let title = sects.getElementsByTagName("h2");
 title.style.fontWeight = "bold";
 title.style.fontSize = "30px"
+}
+//Appliquer du style à la section banner
+let sec1 = document.getElementByClassNam("sec1");
+let h1 = sec1.getElementsByTagName("h1");
+h1.script.textDecoration ='underlined'
+
+//Mettere un événement
+let bouteDentete = document.getElementsByClassName("bouton");
+bouteDentete.addEventListener("click", function(){
+    console.log("Le bouton a été cliqué");
+});
+
+let acceslink = document.getElementById("bouton");
+acceslink.addEventListener("click", function(){
+console.log('Le bouton vient dêtre cliqué')
+})
+
+//Ajouter un gestionnaire d'événement
+let rdv = document.getElementsByClassName("rdv");
+rdv.addEventListener("click", function handClick (event){
+    console.log("Je donne accès ç tout"+event.type)
+})
+
+//Ajouter un événement 
+let devis= document.getElementsByClassName(devis);
+devis.addEventListener(keypress, function(){
+    console.log("Damn bro, you got do all")
+})
+
+//Création d'une nouvelle section
+let sec5 = document.createElement("sec5");
+let H1 = document.createElement("h1")
+//Ajouter une classe à H1
+H1.classList.add(bloc6)
+//ajouter un titre à H1
+H1.textContent = 'Nous sommes disponibles'
+//Ajouter H1 à la section sec5
+sec5.appendChild(H1)
+let body = querySelector(body)
+body.appendChild(sec5)
+
+//Autre manière d'y fonction
