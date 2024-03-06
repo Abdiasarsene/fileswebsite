@@ -17,7 +17,6 @@ header{
     padding:5px;
     width: 100%;
     z-index: 1;
-    transition: 0,5s;
     scroll-behavior: border-box;
 }
 .logo{
